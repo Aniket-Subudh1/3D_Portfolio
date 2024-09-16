@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,15 +10,15 @@
 }
 
 body {
-  background: #010103;
-  font-family: 'General Sans', sans-serif;
+  background: #000000;
+  font-family: 'Poppins', sans-serif;
 }
 
 @layer utilities {
   .c-space {
     @apply sm:px-10 px-5;
   }
-
+  
   .head-text {
     @apply sm:text-4xl text-3xl font-semibold text-gray_gradient;
   }
@@ -27,7 +28,7 @@ body {
   }
 
   .nav-li {
-    @apply text-neutral-400 hover:text-white font-generalsans max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
+    @apply text-neutral-400 hover:text-white font-generalsans max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-0.5 max-sm:px-5;
   }
 
   .nav-li_a {
@@ -35,13 +36,24 @@ body {
   }
 
   .nav-sidebar {
-    @apply absolute left-0 right-0 bg-black-200 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
+    @apply
+      absolute left-4 right-4 mx-auto z-20 text-xl  sm:hidden block
+      bg-[linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0))]
+      backdrop-blur-[50px]
+      rounded-[50px]
+      border border-[rgba(255,255,255,0.18)]
+      shadow-[0_8px_32px_0_rgba(0,0,0,0.37)]
+      transition-all duration-300 ease-in-out
+      overflow-hidden;
   }
 
   .text-gray_gradient {
     @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
   }
-
+  .sm-space {
+    @apply py-2.5;
+  }
+ 
   /* button component */
   .btn {
     @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black-300  transition-all active:scale-95 text-white mx-auto;
@@ -150,6 +162,17 @@ body {
     @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
   }
 }
+/* In your Tailwind CSS file (e.g., styles.css) */
+@layer components {
+  .glass-navbar {
+    @apply
+      bg-[linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0))]
+      backdrop-blur-[10px]
+      rounded-[50px]
+      border border-[rgba(255,255,255,0.18)]
+      shadow-[0_8px_32px_0_rgba(0,0,0,0.37)];
+  }
+}
 
 .waving-hand {
   animation-name: wave-animation;
@@ -195,3 +218,4 @@ body {
     transform: rotate(0deg);
   }
 }
+
