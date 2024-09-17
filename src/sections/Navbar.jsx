@@ -28,11 +28,11 @@ const Navbar = () => {
             className="text-neutral-400 font-bold text-10 hover:text-white transition-colors"
           >
             <img
-              src="assets/logo2.png" // Replace with the path to your logo image
+              src="assets/logo2.png" 
               alt="Logo"
-              className="inline-block align-middle mr-1 w-7 h-7"
+              className="inline-block align-middle  mr-1 w-7 h-7"
             />
-            Aniket Subudhi
+            Aniket
           </a>
 
           <button

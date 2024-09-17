@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         generalsans: ['General Sans', 'sans-serif'],
       },
+      backgroundImage: {
+        'hero-bg': "url('/src/assets/bg.png')",
+      },
       colors: {
         black: {
           DEFAULT: '#000',
@@ -23,9 +26,7 @@ export default {
           500: '#62646C',
         },
       },
-      backgroundImage: {
-        terminal: "url('/assets/terminal.png')",
-      },
+      
     },
   },
   plugins: [],
