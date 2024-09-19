@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #011825;
+  background: #060f13;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -216,5 +216,28 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+
+@layer utilities {
+  .pause{
+  animation-play-state:paused ;
+}}
+.parallax {
+  position: relative;
+  min-height: 75vh;
+  min-width: 2000px;
+  width: 100%;
+  left: 50%; /* Center the image horizontally */
+  transform: translateX(-50%); /* Center the image horizontally */
+  display: grid;
+  grid-template-areas: "stack";
+}
+.parallax__content {
+  --parallax-speed: 210;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 

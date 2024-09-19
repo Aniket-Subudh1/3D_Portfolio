@@ -15,8 +15,8 @@ const RenderModel = ({ children, className }) => {
     >
       {/* Add the directional light acting as sunlight */}
       <directionalLight
-        position={[10, 20, 10]}  // Adjust position closer to the scene
-        intensity={1.5}          // Lower the intensity for a more natural look
+        position={[120, 100, 120]}  // Adjust position closer to the scene
+        intensity={5}          // Lower the intensity for a more natural look
         color={"#FFFF00"}        // Soft yellow color for sunlight
         castShadow               // Enable shadows for this light
         shadow-mapSize-width={2048}  // Higher resolution shadows
@@ -29,7 +29,7 @@ const RenderModel = ({ children, className }) => {
       />
 
       {/* Add ambient light for soft general illumination */}
-      <ambientLight intensity={0.4} />
+      <ambientLight intensity={1} />
 
       {/* Suspense loader for async model loading */}
       <Suspense fallback={<CanvasLoader />}>

@@ -21,124 +21,18 @@ export const navLinks = [
     },
   ];
   
-  export const clientReviews = [
-    {
-      id: 1,
-      name: 'Emily Johnson',
-      position: 'Marketing Director at GreenLeaf',
-      img: 'assets/review1.png',
-      review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-      id: 2,
-      name: 'Mark Rogers',
-      position: 'Founder of TechGear Shop',
-      img: 'assets/review2.png',
-      review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-      id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
-      img: 'assets/review3.png',
-      review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-      id: 4,
-      name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
-      img: 'assets/review4.png',
-      review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-  ];
+  
   
   export const myProjects = [
+   
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Personal Finance Tracker - Expenses Management System',
+      desc: 'Personal Finance Tracker is a comprehensive expense management system that helps users track their spending, set budgets, and manage their finances effectively. It offers a range of features, including expense categorization, budget tracking, and financial goal setting, to help users achieve their financial goals.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-      subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
-      logoStyle: {
-        backgroundColor: '#13202F',
-        border: '0.2px solid #17293E',
-        boxShadow: '0px 0px 60px 0px #2F6DB54D',
-      },
-      spotlight: '/assets/spotlight2.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-      subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'Builts using Spring Boot, Angular.js, and MySQL, Personal Finance Tracker provides a user-friendly interface and robust functionality for managing personal finances. It is designed to be intuitive, secure, and scalable, making it an ideal solution for individuals looking to take control of their finances.',
+      href: 'https://github.com/Aniket-Subudh1/Personal-Finance-Tracker',
       texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      logo: '/assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -150,8 +44,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Spring Boot',
+          path: '/assets/spring.svg',
         },
         {
           id: 2,
@@ -165,17 +59,17 @@ export const navLinks = [
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Angular.js',
+          path: '/assets/angular.svg',
         },
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'UniVerse - A University Management System',
+      desc: 'UniVerse is an all-in-one university management ERP that provides a centralized dashboard for academic and administrative operations. It enables users to manage student data, track attendance, handle course registration, and streamline communication between students, faculty, and administration.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        'Built with Advanced Java, Spring Boot, Hibernate, and MySQL,UniVerse delivers a seamless and efficient university management experience, designed to cater to the diverse needs of students, faculty, and administrators.',
+      href: 'https://github.com/Aniket-Subudh1/UniVerse',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
@@ -188,31 +82,31 @@ export const navLinks = [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: '/assets/java.svg',
         },
         {
           id: 2,
           name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          path: 'assets/spring.svg',
         },
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: '/assets/angular.svg',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: '/assets/hibernate.svg',
         },
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      title: 'Pigeon - Messaging App',
+      desc: 'Pigeon is a cutting-edge mobile messaging app that empowers users to communicate seamlessly. With features like smart messaging, a payments system, and a credits-based model, users can enjoy personalized chats, secure transactions, and premium content access.',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        'Built with Kotlin, Firebase, Jetpack Compose, and Retrofit, Pigeon integrates modern Android development tools with a focus on user experience. It offers robust features, real-time communication, and seamless integrations, making it a versatile platform for personal use or scaling into a full-fledged business.',
+      href: 'https://github.com/Aniket-Subudh1/Pigeon',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
@@ -225,22 +119,22 @@ export const navLinks = [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: '/assets/kotlin.svg',
         },
         {
           id: 2,
           name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          path: 'assets/firebase.svg',
         },
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: '/assets/jetpack.svg',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: '/assets/retrofit.png',
         },
       ],
     },
@@ -260,29 +154,29 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
+      name: 'Mern Stack Developer',
+      pos: 'Intermediate Level',
       duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
+      title: "I'm a MERN stack developer with a passion for creating dynamic, responsive web applications. I specialize in building user-friendly interfaces and scalable backend systems, using technologies like React, Node.js, Express, and MongoDB.",
+      icon: '/assets/mern.svg',
       animation: 'victory',
     },
     {
       id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
+      name: 'JavaStack Developer',
+      pos: 'Intermediate Level',
+      duration: '2022-present',
+      title: "I'm a Java developer with experience in building enterprise-level applications. I specialize in backend development, using technologies like Spring Boot, Hibernate, and MySQL to create robust and scalable systems.",
+      icon: '/assets/java.svg',
       animation: 'clapping',
     },
     {
       id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
+      name: 'Devops',
+      pos: 'Beginner Level',
+      duration: '2022 - present',
+      title: "I'm a DevOps enthusiast with a keen interest in automation, CI/CD, and cloud computing. I'm proficient in tools like Docker, Jenkins, and AWS, and I'm always looking to expand my knowledge and skills in this area.",
+      icon: '/assets/devops.svg',
       animation: 'salute',
     },
   ];
